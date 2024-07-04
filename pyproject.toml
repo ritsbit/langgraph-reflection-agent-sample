@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "langgraph-reflection-agent-sample"
+version = "0.1.0"
+description = "LangGraph Reflection Agent Sample"
+authors = ["Ritesh Sharma <riteshsharma.bit@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+black = "^24.4.2"
+isort = "^5.13.2"
+langchain = "^0.2.6"
+langchain-openai = "^0.1.14"
+langgraph = "^0.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
